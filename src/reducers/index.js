@@ -13,7 +13,7 @@ function recipes(state = [], action) {
 
 
 function favoriteRecipes( state = [], action){
-  switch (action.recipe) {
+  switch (action.type) {
     case FAVORITE_RECIPE:
       state = [...state, action.recipe];
       return state;

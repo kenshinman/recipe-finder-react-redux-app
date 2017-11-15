@@ -27,3 +27,17 @@ body {
   height: 100px;
   object-fit: cover
 }
+
+.star{
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.star:hover{
+  color: yellow;
+}
+
+.star.favorited{
+  color: yellow;
+}

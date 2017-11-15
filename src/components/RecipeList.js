@@ -10,7 +10,7 @@ class RecipeList extends Component {
         <h3>Recipe List</h3>
 
         {this.props.recipes.map((recipe, i) => {
-          return <RecipeItem key={i} recipe={recipe} />
+          return <RecipeItem key={i} recipe={recipe} favoriteButton />
         })}
       </div>
     );
